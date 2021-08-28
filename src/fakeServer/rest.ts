@@ -2,6 +2,7 @@ import FakeRest from 'fakerest';
 import fetchMock from 'fetch-mock';
 import generateData from 'data-generator-retail';
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default () => {
     const data = generateData({ serializeDate: true });
     const restServer = new FakeRest.FetchServer('http://localhost:4000');

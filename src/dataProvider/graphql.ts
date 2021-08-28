@@ -72,6 +72,7 @@ const customBuildQuery = (
     };
 };
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default async () => {
     const dataProvider = await buildApolloClient({
         clientOptions: {

@@ -1,3 +1,4 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowArray": true}] */
 export default [
     { id: 'compulsive', name: 'resources.segments.data.compulsive' },
     { id: 'collector', name: 'resources.segments.data.collector' },

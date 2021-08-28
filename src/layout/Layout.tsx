@@ -8,6 +8,7 @@ import { AppState } from '../types';
 
 const CustomSidebar = (props: any) => <Sidebar {...props} size={200} />;
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default (props: LayoutProps) => {
     const theme = useSelector((state: AppState) =>
         state.theme === 'dark' ? darkTheme : lightTheme

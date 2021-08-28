@@ -2,6 +2,7 @@ import JsonGraphqlServer from 'json-graphql-server';
 import generateData from 'data-generator-retail';
 import fetchMock from 'fetch-mock';
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default () => {
     const data = generateData({ serializeDate: false });
     const restServer = JsonGraphqlServer({ data });

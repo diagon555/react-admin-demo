@@ -5,6 +5,7 @@ import {
 } from 'react-admin';
 import fakeServerFactory from '../fakeServer';
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default (type: string) => {
     // The fake servers require to generate data, which can take some time.
     // Here we start the server initialization but we don't wait for it to finish

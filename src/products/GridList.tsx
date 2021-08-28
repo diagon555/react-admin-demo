@@ -13,7 +13,6 @@ import {
     Identifier,
 } from 'react-admin';
 import { Link } from 'react-router-dom';
-import { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
 
 const useStyles = makeStyles(theme => ({
     gridList: {
